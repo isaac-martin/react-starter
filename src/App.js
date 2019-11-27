@@ -3,12 +3,18 @@ import {ThemeProvider} from 'styled-components';
 import GlobalStyle from './theme/globalStyle';
 import theme from './theme';
 import Base from './components/Base';
+import Query from './components/Query';
+
+import {Router} from '@reach/router';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Base />
+      <Router>
+        <Base path="/" />
+        <Query path="query" />
+      </Router>
     </ThemeProvider>
   );
 };
