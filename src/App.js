@@ -8,6 +8,7 @@ import Query from './components/Query';
 import {Router} from '@reach/router';
 
 const App = () => {
+  console.log(theme);
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />

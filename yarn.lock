@@ -9320,6 +9320,11 @@ styled-components@~4.4.1:
     stylis-rule-sheet "^0.0.10"
     supports-color "^5.5.0"
 
+styled-media-helper@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/styled-media-helper/-/styled-media-helper-2.0.0.tgz#20d80fd677a81b871ae131a5f187d96a737a48d1"
+  integrity sha512-Q5IGDrHH8Q+v/ILWvQvsGpdz64kdQIKIfIQiNl6p+MuKFfdobke8oxIUNQ1gFrwi9M9r9k3ceyDqeNtXtos5tA==
+
 styled-normalize@~8.0.6:
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/styled-normalize/-/styled-normalize-8.0.6.tgz#f27f87292f46aa79ad6db6339aff5db529df3c91"
