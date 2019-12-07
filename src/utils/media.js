@@ -1,6 +1,8 @@
-const mq = ({max, min = 0}, styles) => {
+const mq = ({max, min}, styles) => {
+  const query = min ? `@media min-width: ${min}) and (max-width: ${max})` : `@media (max-width: ${max})`;
+
   return {
-    [`@media (min-width: ${min}) and (max-width: ${max})`]: {
+    [query]: {
       ...styles
     }
   };
