@@ -2,8 +2,7 @@ import React from 'react';
 import {ThemeProvider} from 'styled-components';
 import GlobalStyle from './theme/globalStyle';
 import theme from './theme';
-import Base from './components/Base';
-import Query from './components/Query';
+import Home from 'views/Home';
 
 import {Router} from '@reach/router';
 
@@ -12,8 +11,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Router>
-        <Base path="/" />
-        <Query path="query" />
+        <Home path="/" />
       </Router>
     </ThemeProvider>
   );
